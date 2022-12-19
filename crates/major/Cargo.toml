@@ -9,3 +9,4 @@ edition = "2021"
 fun = {path="../fun", optional=true}
 
 [features]
+fun =["dep:fun"]
